@@ -24,7 +24,7 @@ Board used: ZedBoard Zynq-7000
 
 Software Version: Vivado 2017.4, Vivado HLS 2017.4
 
-Brief description of project:In this project, the vehicle that can detect and park the parking area was implemented with the deep q learning method.
+Brief description of project:In this project, the vehicle that can detect and park the suitable parking area was implemented with the deep q learning method.
 Trained neural networks have been accelerated on hardware design. SoC architecture tested on prototype model car.
 
 Link to project repository: https://github.com/AlicanOzeloglu/ELON-Autonomous-Parking
