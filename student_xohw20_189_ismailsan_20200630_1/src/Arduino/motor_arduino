@@ -1,0 +1,79 @@
+const int in1 = 11;
+const int in2 = 10;
+const int e1 = 6;
+const int in3 = 9;
+const int in4 = 8;
+const int e2 = 5;
+const int Zedboardr = 4;
+const int Zedboardl = 3;
+
+int Zedboardright;
+int Zedboardleft;
+
+void setup() {
+  pinMode(in1, OUTPUT);
+  pinMode(in2, OUTPUT);
+  pinMode(e1, OUTPUT);
+  pinMode(in3, OUTPUT);
+  pinMode(in4, OUTPUT);
+  pinMode(e2, OUTPUT);
+  pinMode(Zedboardr, INPUT);
+  pinMode(Zedboardl, INPUT);
+}
+
+void loop() {
+  Zedboardright= digitalRead(Zedboardr);
+  Zedboardleft= digitalRead(Zedboardl);
+  
+  if ( Zedboardright==HIGH and Zedboardleft==HIGH){
+    forward();
+  }
+
+  else if ( Zedboardright==HIGH and Zedboardleft==LOW){
+    right();
+  }
+
+  else if ( Zedboardright==LOW and Zedboardleft==HIGH){
+    left();
+  }
+
+  else{
+    dmove();
+  }
+}
+
+void forward() {
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, HIGH);
+  analogWrite(e1,120);
+  digitalWrite(in3, LOW);
+  digitalWrite(in4, HIGH);
+  analogWrite(e2,120);
+}
+
+void right() {
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, HIGH);
+  analogWrite(e1,50);
+  digitalWrite(in3, LOW);
+  digitalWrite(in4, HIGH);
+  analogWrite(e2,130);
+}
+
+void left() {
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, HIGH);
+  analogWrite(e1,130);
+  digitalWrite(in3, LOW);
+  digitalWrite(in4, HIGH);
+  analogWrite(e2,50);
+}
+
+void dmove() {
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, LOW);
+  analogWrite(e1,0);
+  digitalWrite(in3, LOW);
+  digitalWrite(in4, LOW);
+  analogWrite(e2,0);
+}

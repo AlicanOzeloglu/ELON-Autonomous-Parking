@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER capture_to_proc
+	OPTION supported_peripherals = (capture_to_proc);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = capture_to_proc;
+END DRIVER

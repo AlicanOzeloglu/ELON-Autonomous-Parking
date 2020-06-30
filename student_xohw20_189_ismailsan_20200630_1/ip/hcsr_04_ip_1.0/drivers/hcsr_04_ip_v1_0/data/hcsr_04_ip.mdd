@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER hcsr_04_ip
+	OPTION supported_peripherals = (hcsr_04_ip);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = hcsr_04_ip;
+END DRIVER
