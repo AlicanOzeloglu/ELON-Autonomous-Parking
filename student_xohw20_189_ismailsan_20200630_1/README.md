@@ -24,12 +24,12 @@ Board used: ZedBoard Zynq-7000
 
 Software Version: Vivado 2017.4, Vivado HLS 2017.4
 
-Brief description of project:In this project, the vehicle that can detect and park the suitable parking area was implemented with the deep q learning method.
+**Brief description of project:**In this project, the vehicle that can detect and park the suitable parking area was implemented with the deep q learning method.
 Trained neural networks have been accelerated on hardware design. SoC architecture tested on prototype model car.
 
-Link to project repository: https://github.com/AlicanOzeloglu/ELON-Autonomous-Parking
+**Link to project repository:** https://github.com/AlicanOzeloglu/ELON-Autonomous-Parking
 
-Description of archive (explain directory structure, documents and source files):
+**Description of archive (explain directory structure, documents and source files):**
 
 * deep_q_learning_with_python --> This file includes Python3 codes for deep q learning part of our project.
 * ip --> This file includes IP files and IP source files to create IPs which were used in project.
@@ -40,7 +40,7 @@ Description of archive (explain directory structure, documents and source files)
 * ELON_Project_Report --> Report of our project.
 
 
-Instructions to build and test project
+**Instructions to build and test project**
 
 
 ######  Creating IP with HLS: ######
@@ -79,8 +79,8 @@ Instructions to build and test project
 When generate bitstream finished, export hardware (include bitstream should be marked) and launch SDK.
 
 1. Create new Hello World application project in SDK.
-1. Replace the contents of the Hello world project with student_xohw20_189_ismailsan_20200630_1/src/c/helloworld.c
-1. Ready to run.
+2. Replace the contents of the Hello world project with student_xohw20_189_ismailsan_20200630_1/src/c/helloworld.c
+3. Ready to run.
 
 ########################
 Link to YouTube Video(s): [link to Youtube!](https://www.youtube.com/watch?v=sdin0O2WmTE) 
