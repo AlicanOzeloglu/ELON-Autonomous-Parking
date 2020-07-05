@@ -12,6 +12,9 @@ car_image.jpeg --> Car image that we used in simulation.
 
 ###   Necessary Libraries   ###
 Keras
+
 Pygame
+
 Numpy
+
 Collections
