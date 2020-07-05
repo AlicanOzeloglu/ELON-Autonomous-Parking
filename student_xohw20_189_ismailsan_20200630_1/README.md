@@ -41,8 +41,6 @@ Trained neural networks have been accelerated on hardware design. SoC architectu
 
 
 **Instructions to build and test project**
-
-
 ######  Creating IP with HLS: ######
 
 1. Open Vivado HLS 2017.4
@@ -82,6 +80,4 @@ When generate bitstream finished, export hardware (include bitstream should be m
 2. Replace the contents of the Hello world project with student_xohw20_189_ismailsan_20200630_1/src/c/helloworld.c
 3. Ready to run.
 
-########################
 **Link to YouTube Video(s):** [link to Youtube!](https://www.youtube.com/watch?v=sdin0O2WmTE) 
-########################
