@@ -1,30 +1,30 @@
-Team number: xohw20_189
+**Team number:** xohw20_189
 
-Project name: ELON: Autonomous Parking via Deep Q Learning: A SoC Solution
+**Project name:** ELON: Autonomous Parking via Deep Q Learning: A SoC Solution
 
-Date: 30.06.2020
+**Date:** 30.06.2020
 
-Version of uploaded archive: 1
+**Version of uploaded archive:** 1
 
-University name: Eskişehir Technical University
+**University name:** Eskişehir Technical University
 
-Supervisor name: Asst. Prof. İsmail SAN
+**Supervisor name:** Asst. Prof. İsmail SAN
 
-Supervisor e-mail: isan@eskisehir.edu.tr
+**Supervisor e-mail:** isan@eskisehir.edu.tr
 
-Participant(s): Alican ÖZELOĞLU
+**Participant(s):** Alican ÖZELOĞLU
 
-Email: alicanozeloglu@gmail.com
+**Email:** alicanozeloglu@gmail.com
 
-Participant(s): İsmihan Gül GÜRBÜZ
+**Participant(s):** İsmihan Gül GÜRBÜZ
 
-Email: ismihanglgrbz@gmail.com
+**Email:** ismihanglgrbz@gmail.com
 
-Board used: ZedBoard Zynq-7000
+**Board used:** ZedBoard Zynq-7000
 
-Software Version: Vivado 2017.4, Vivado HLS 2017.4
+**Software Version:** Vivado 2017.4, Vivado HLS 2017.4
 
-**Brief description of project:**In this project, the vehicle that can detect and park the suitable parking area was implemented with the deep q learning method.
+**Brief description of project:** In this project, the vehicle that can detect and park the suitable parking area was implemented with the deep q learning method.
 Trained neural networks have been accelerated on hardware design. SoC architecture tested on prototype model car.
 
 **Link to project repository:** https://github.com/AlicanOzeloglu/ELON-Autonomous-Parking
@@ -83,5 +83,5 @@ When generate bitstream finished, export hardware (include bitstream should be m
 3. Ready to run.
 
 ########################
-Link to YouTube Video(s): [link to Youtube!](https://www.youtube.com/watch?v=sdin0O2WmTE) 
+**Link to YouTube Video(s):** [link to Youtube!](https://www.youtube.com/watch?v=sdin0O2WmTE) 
 ########################
