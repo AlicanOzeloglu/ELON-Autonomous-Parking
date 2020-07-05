@@ -43,43 +43,45 @@ ELON_Project_Report --> Report of our project.
 Instructions to build and test project
 
 
-######  Creating IP with HLS ######
+######  Creating IP with HLS: ######
 
-Open Vivado HLS 2017.4
-Create New Project
-Name of the top function should be "SearchingNN" for seaching neural network IP.
+1. Open Vivado HLS 2017.4
+2. Create New Project
+3. Name of the top function should be "SearchingNN" for seaching neural network IP.
 				   "ParkingNN" for parkingneural network IP.
-Right click on Source and click add files.
-Select student_xohw20_189_ismailsan_20200630_1/ip/HLS/SearchingNN_ip for searching neural network.
+4. Right click on Source and click add files.
+5. Select student_xohw20_189_ismailsan_20200630_1/ip/HLS/SearchingNN_ip for searching neural network.
        student_xohw20_189_ismailsan_20200630_1/ip/HLS/ParkingNN_ip for parking neural network.
-Click C synthesis.
-When synthesis is finished, click Export RTL.
+6. Click C synthesis.
+7. When synthesis is finished, click Export RTL.
 
 
-######  Creating SoC Design with All Components  ######
-Open Vivado 2017.4
-Create RTL Project
-Choose ZedBoard Development Kit as destination board
-Create block design
-Add ip --> zynq processing system
-Add ip --> clock wizard
-Add source --> Add or create design source --> Add files --> student_xohw20_189_ismailsan_20200630_1/src/vhdl --> select all files --> click OK and Finish
-In Source window, Design Sources --> right click on ov7670_controller, ov7670_capture, debounce and click add module to block design
-Click Window --> Add ip catalog --> click right click on list --> select student_xohw20_189_ismailsan_20200630_1/ip --> click OK
-Click Window --> Add ip catalog --> select ip files which you created with HLS
-Click Add ip --> select 3 hcsr_04_ip_v1.0 , select motor_ip_v1.0, capture_to_proc_v1.0, SearchingNN_0, ParkingNN_0
-Make neccessary connections as seen in student_xohw20_189_ismailsan_20200630_1/block_diagram.pdf, make sure the connections are exactly the same with block_diagram.pdf
-Make sure that your souce hierarchy is same as student_xohw20_189_ismailsan_20200630_1/source_hierarchy
-Click Generate Bitstream
-Click Add Sources --> Add or create constraints --> Add file --> select student_xohw20_189_ismailsan_20200630_1/src/vhdl/ SocXilinxPin.xdc --> Finish
-Right click on design file and click Create HDL Wrapper.
-Right click on design and click Generate Output Products.
-Click on Generate Bitstream.
+######  Creating SoC Design with All Components:  ######
+1. Open Vivado 2017.4
+2. Create RTL Project
+3. Choose ZedBoard Development Kit as destination board
+4. Create block design
+5. Add ip --> zynq processing system
+6. Add ip --> clock wizard
+7. Add source --> Add or create design source --> Add files --> student_xohw20_189_ismailsan_20200630_1/src/vhdl --> select all files --> click OK and Finish
+8. In Source window, Design Sources --> right click on ov7670_controller, ov7670_capture, debounce and click add module to block design
+9. Click Window --> Add ip catalog --> click right click on list --> select student_xohw20_189_ismailsan_20200630_1/ip --> click OK
+10. Click Window --> Add ip catalog --> select ip files which you created with HLS
+11. Click Add ip --> select 3 hcsr_04_ip_v1.0 , select motor_ip_v1.0, capture_to_proc_v1.0, SearchingNN_0, ParkingNN_0
+12. Make neccessary connections as seen in student_xohw20_189_ismailsan_20200630_1/block_diagram.pdf, make sure the connections are exactly the same with block_diagram.pdf
+13. Make sure that your souce hierarchy is same as student_xohw20_189_ismailsan_20200630_1/source_hierarchy
+14. Click Generate Bitstream
+15. Click Add Sources --> Add or create constraints --> Add file --> select student_xohw20_189_ismailsan_20200630_1/src/vhdl/ SocXilinxPin.xdc --> Finish
+16. Right click on design file and click Create HDL Wrapper.
+17. Right click on design and click Generate Output Products.
+18. Click on Generate Bitstream.
+
 When generate bitstream finished, export hardware (include bitstream should be marked) and launch SDK.
-Create new Hello World application project in SDK.
-Replace the contents of the Hello world project with student_xohw20_189_ismailsan_20200630_1/src/c/helloworld.c
-Ready to run.
+
+1. Create new Hello World application project in SDK.
+1. Replace the contents of the Hello world project with student_xohw20_189_ismailsan_20200630_1/src/c/helloworld.c
+1. Ready to run.
 
 ########################
-Link to YouTube Video(s): https://www.youtube.com/watch?v=sdin0O2WmTE
+Link to YouTube Video(s): [link to Youtube!](https://www.youtube.com/watch?v=sdin0O2WmTE) 
 ########################
