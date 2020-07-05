@@ -45,11 +45,11 @@ Trained neural networks have been accelerated on hardware design. SoC architectu
 
 1. Open Vivado HLS 2017.4
 2. Create New Project
-3. Name of the top function should be "SearchingNN" for seaching neural network IP.
-				   	#"ParkingNN" for parkingneural network IP.
+3. Name of the top function should be * "SearchingNN" for seaching neural network IP.
+				   	* "ParkingNN" for parkingneural network IP.
 4. Right click on Source and click add files.
-5. Select student_xohw20_189_ismailsan_20200630_1/ip/HLS/SearchingNN_ip for searching neural network.
-       		#student_xohw20_189_ismailsan_20200630_1/ip/HLS/ParkingNN_ip for parking neural network.
+5. Select * student_xohw20_189_ismailsan_20200630_1/ip/HLS/SearchingNN_ip for searching neural network.
+       		* student_xohw20_189_ismailsan_20200630_1/ip/HLS/ParkingNN_ip for parking neural network.
 6. Click C synthesis.
 7. When synthesis is finished, click Export RTL.
 
