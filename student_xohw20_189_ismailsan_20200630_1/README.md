@@ -31,13 +31,13 @@ Link to project repository: https://github.com/AlicanOzeloglu/ELON-Autonomous-Pa
 
 Description of archive (explain directory structure, documents and source files):
 
-deep_q_learning_with_python --> This file includes Python3 codes for deep q learning part of our project.
-ip --> This file includes IP files and IP source files to create IPs which were used in project.
-src --> This file includes C, VHDL and ardunio code that we used in the project.
-block_diagram.pdf --> Block diagram of our project.
-source_hierarchy.PNG --> Source hierarchy of the SoC design.
-Prototype_car --> A picture of our prototype car.
-ELON_Project_Report --> Report of our project.
+* deep_q_learning_with_python --> This file includes Python3 codes for deep q learning part of our project.
+* ip --> This file includes IP files and IP source files to create IPs which were used in project.
+* src --> This file includes C, VHDL and ardunio code that we used in the project.
+* block_diagram.pdf --> Block diagram of our project.
+* source_hierarchy.PNG --> Source hierarchy of the SoC design.
+* Prototype_car --> A picture of our prototype car.
+* ELON_Project_Report --> Report of our project.
 
 
 Instructions to build and test project
